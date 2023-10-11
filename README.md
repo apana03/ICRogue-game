@@ -1,53 +1,54 @@
-# # Description du jeu ICRogue
+# ICRogue - A Java-Based Dungeon Adventure Game
 
-Le jeu comporte plusieurs type de chambres differentes. Toutes pouvant etres resolues d'une maniere specifique.
+## Description
 
-## Le SpawnRoom
-Il s'agit de la chambre ou le player spawn au tout debut du jeu et ne necessite pas d'etre resolue
+ICRogue is an exciting dungeon adventure game implemented in Java. In this game, you will embark on a quest to explore a mysterious castle overtaken by the forces of darkness. Your mission is to solve puzzles, unlock magical powers, and confront the ultimate challenge: defeating the malevolent Lord of Darkness. To achieve this, you'll need to master a magical staff with unique abilities.
 
-## Le Level0Room
- Cette chambre est une chambre vide resolue des que le player la visite, elle ne possede rien de special.
+## Types of Rooms
 
-## Le KeyRoom
-Chambre possedant une cle. Des que le cle est en possesion du joueur les porte s'ouvrent.
+### SpawnRoom
+- This is the room where the player spawns at the very beginning of the game, and it doesn't need to be resolved.
 
-## Le PressurePlateRoom
-Chambre possedent deux plaques de pression generees aleatoirement et une roche. Pour resoudre cette chambre le player doit reussir a appuyer les deux plaques en meme temps.
+### Level0Room
+- This room is an empty chamber resolved as soon as the player visits it; it has nothing special.
 
-## Le StaffRoom
-Cette chambre possede un baton magique donnant au joueur des pouvoirs speciaux. Mais ce n'est pas tres facile d'acquerir celui-ci puisqu-il est defendu par des phantoms qui spawnent regulierement chassant le player et lui infligeant des degats physiques. Pour les tuer il doit cependant d'abord prendre le baton.
+### KeyRoom
+- A room that contains a key. As soon as the player possesses the key, the doors open.
 
-## Le TurretRoom
-Cette chambre possede deux ennemis lancant des fleches. Pour la resoudre le player doit les vaincres
+### PressurePlateRoom
+- A room with two randomly generated pressure plates and a boulder. To resolve this room, the player must succeed in pressing both plates simultaneously.
 
-## La Chambre du Boss
-Cette chambre contient l'adversaire final du joueur.
+### StaffRoom
+- This room holds a magical staff that grants the player special powers. However, acquiring it is not easy because it is defended by phantoms that spawn regularly, chasing the player and inflicting physical damage. To defeat them, the player must first acquire the staff.
 
-# Solution de ICRogue
+### TurretRoom
+- This room contains two enemies launching arrows. To resolve it, the player must defeat these foes.
 
-Le seigneur des tenebres a pris le controle d'un du chateau, vous decidez d'arreter sa tyrannie. Pourtant pour l'affronte vous devez avoir en possesion le baton magique puisque qui est dans un chambre de son chateau.
+### Boss Room
+- This chamber houses the final adversary of the player.
 
+## Game Solution
 
-# Les controles
-Les controles du joueur sont les suivants:
+The Lord of Darkness has taken control of one of the castles, and you decide to stop his tyranny. However, to confront him, you must be in possession of the magical staff, which is located in one of the rooms in his castle.
 
-- Fleches directionnelles: deplacement
+## Controls
 
-- W: Interaction a distance(avec la porte verouille, pour recuperer le baton et pousser la roche)
+The player controls are as follows:
+- Arrow keys: Movement.
+- W: Distant interaction (used to open locked doors, retrieve the staff, and push the boulder).
+- X: Cast a fireball once the staff is obtained.
+- Z: The player places a bomb on themselves, but they must be careful not to be near it when it explodes.
 
-- X: Lancer une boule de feu une fois le baton recupere
+## How to Confront the Lord of Darkness
 
-- Z: Le joueur laisse un bombe sur lui mais il doit faire attention qu'elle n'explose avant qu'il se soit eloigne
+The Lord is immune to all physical damage; he can only be injured using magic. To produce this magic, you need to acquire a magical staff. This staff has three powers:
+- Summoning flying skulls
+- Random teleportation within the room
 
+## Running the Game
 
-## Comment affronter le seigneur des tenebres
+To play the game, execute the "play" file.
 
-Le seigneur est insensible a tout degat physique, il n'est possible de le blesser qu'au moyen de magie. Afin de produire cette magie, il faut vous procurer un baton magique.
+## Game End
 
-Celui-ci a 3 pouvoirs:
-- l'invocation de cranes volants
-- la teleportation aleatoire dans la chambre
-
-
-## Fin du jeu
-Le jeu est fini une fois le seigneur des tenebres vaincu 
+The game is finished once the Lord of Darkness is defeated.
